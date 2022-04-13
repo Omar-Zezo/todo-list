@@ -1,0 +1,75 @@
+body{
+    background-color: #111;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    color: #FFF;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.form{
+    width: 95vw;
+    height: 50px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+}
+
+.form .box{
+    width: 80%;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 5px;
+    background-color: #222;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    color: #FFF;
+}
+
+.form .btn{
+    flex-grow: 1;
+    height: 50px;
+    margin-left: 5px;
+    background-color: #247881;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.tasks{
+    width: 95vw;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.tasks .task{
+    width: 98%;
+    height: 50px;
+    padding-left: 10px;
+    background-color: #FF5F00;
+    margin: auto;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    color: #FFF;
+}
+
+.tasks .task .remove {
+    padding: 17.5px 10px;
+    background-color: #B20600;
+    color: #FFF;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    border: none;
+    cursor: pointer;
+}

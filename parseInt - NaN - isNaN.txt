@@ -1,0 +1,4 @@
+parseInt()
+NaN - 
+isNaN()
+!isNaN()
