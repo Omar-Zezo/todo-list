@@ -1,4 +1,0 @@
-parseInt()
-NaN - 
-isNaN()
-!isNaN()

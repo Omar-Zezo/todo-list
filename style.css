@@ -37,7 +37,7 @@ body{
     flex-grow: 1;
     height: 50px;
     margin-left: 5px;
-    background-color: #247881;
+    background: -webkit-linear-gradient(left, #0093AB,#034a57);
     color: #FFF;
     border: none;
     border-radius: 5px;
@@ -54,22 +54,26 @@ body{
     width: 98%;
     height: 50px;
     padding-left: 10px;
-    background-color: #FF5F00;
+    background: -webkit-linear-gradient(left, #0093AB,#034a57);
     margin: auto;
     font-size: 20px;
     display: flex;
     align-items: center;
     margin-bottom: 5px;
     color: #FFF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .tasks .task .remove {
     padding: 17.5px 10px;
-    background-color: #B20600;
+    background: -webkit-linear-gradient(left,#b91510,  #B20600);
     color: #FFF;
     font-weight: bold;
     display: block;
     margin-left: auto;
     border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     cursor: pointer;
 }
